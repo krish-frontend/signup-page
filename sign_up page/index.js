@@ -27,9 +27,9 @@ btn.innerText="Signup ->"
 
 btn.addEventListener("click",function(){
 
-    let user = username.value;
-    let pass = password.value;
-    let mail = email.value;
+    // let user = username.value;
+    // let pass = password.value;
+    // let mail = email.value;
 
     username.value = "Krish";
     email.value = "krish@example.com";
