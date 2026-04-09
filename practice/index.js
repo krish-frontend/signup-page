@@ -23,10 +23,16 @@
 //     console.log(arr[i].toString());
 // }
 
-let arr=[2,3,4,5,6,7]
+// let arr=[2,3,4,5,6,7]
 
-arr.forEach(function(item){
-    let arr2=item*2;
-    return arr2;
-})
-console.log(arr2)
+// // arr.forEach(function(item){
+// //     console.log(item)
+// // })
+
+// let arr2=arr.map(function(item){
+//     return item*2;
+// })
+
+// console.log(arr2)
+
+
