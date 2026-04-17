@@ -35,4 +35,27 @@
 
 // console.log(arr2)
 
+// function add(a,b,cb){
+//     let result=a/b;
+//     cb(result)
+// }
 
+// function cb(a){
+//     console.log(a)
+// }
+
+// add(2,6,cb)
+
+function createcount(){
+    let count=0;
+    return function(){
+        count++;
+        console.log(count)
+    }
+}
+
+createcount()
+// const counter1=createcount();
+
+// counter1();
+// counter1();
