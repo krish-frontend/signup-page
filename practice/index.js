@@ -46,16 +46,24 @@
 
 // add(2,6,cb)
 
-function createcount(){
-    let count=0;
-    return function(){
-        count++;
-        console.log(count)
-    }
-}
+// function createcount(){
+//     let count=0;
+//     return function(){
+//         count++;
+//         return count
+//     }
+// }
 
-createcount()
+// // createcount()
 // const counter1=createcount();
 
 // counter1();
 // counter1();
+
+useEffect(() => {
+  console.log("Mounted");
+
+  return () => {
+    console.log("Unmounted");
+  };
+}, []);
